@@ -16,7 +16,7 @@ margin: 0%;
 #top-banner{
    width:100%;
    height:60px;
-   background-color: black;
+   background-color: purple;
 }
 
 #title{
@@ -24,10 +24,10 @@ font-family: "Days One";
 display: inline;
 position: absolute;
 color: white;
-margin-left: 40%;
+margin-left: 47%;
 margin-top: 1%;
 font-weight: lighter;
-font-size: 200%;
+font-size: 180%;
 }
 
 #title a {
@@ -90,10 +90,11 @@ width: 160%;
 
 /*Sets the map div to height 100%*/
 #map {
-  position: relative;;
+  position: relative;
   display: inline-block;
   height:100%;
-  width: 100%;
+  width: 80%;
+  margin-left: 20%;
 }
 
 #button {
@@ -114,3 +115,12 @@ width: 160%;
   margin-left: 0%;
 
 }
+
+#leftBar {
+  height:100%;
+  width:20%;
+  background-color: white;
+  position: absolute;
+  display: inline-block;
+  border-radius: 2%;
+  border-color: black;
