@@ -3,21 +3,47 @@
     <head>
       <title>WhereToPark</title>
       <link rel="stylesheet" type="text/css" href="stylesheet.css">
-      <script src="script.js"></script>
+      <script src=" http://code.jquery.com/jquery-1.11.3.min.js"></script>
+      <script type="text/javascript" src="http://cdn.jsdelivr.net/jquery/1/jquery.min.js"></script>
+      <script type="text/javascript" src="http://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/bootstrap/3/css/bootstrap.css"/>
 
     </head>
 
     <body>
+      <div class="wrapper">
+        <div id="top-banner">
+          <h1 id="title"><a href="index.html">WHEREToPARK</a></h1>
+        </div>
+      </div>
 
-        <div id="map"></div>
-        <div id="button"></div>
-        
+      <div id="map"></div>
+      <div id="button"></div>
+      <div id="button2"></div>
+
+      <div id="sidebar">
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="parkingRoute.html">Enter a Parking Route</a></li>
+          <li><a href="rentYouSpace.html">Rent Your Space</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+        <div id="sidebar-btn">
+          <img id="burger-btn" src="whiteMenu.png">
+        </div>
+      </div>
+
+
+
+
+
 
           <!-- //loads the javascript API into the browser
           //once loaded it will perform the callback which is the function above -->
           <script async defer
             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDISnI1QTQINxRHdoGv8epY3sLANV4hLZg&v=3&callback=initMap">
           </script>
-
+<script src="script.js"></script>
     </body>
   </html>
