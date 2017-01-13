@@ -103,7 +103,7 @@ width: 160%;
   position: relative;
   background-color: red;
   margin-left: 0%;
-  margin-top: -28%;
+
 }
 
 #button2 {
@@ -124,3 +124,64 @@ width: 160%;
   display: inline-block;
   border-radius: 2%;
   border-color: black;
+}
+
+#searchDetails {
+  position: absolute;
+}
+
+#marker {
+  position: relative;
+  margin-top: 20%;
+  margin-left: 10%;
+}
+
+#clock {
+  position: relative;
+  margin-top:20%;
+  margin-left: 10%;
+  padding-top: 10%;
+}
+
+#calenderFrom {
+  position: relative;
+  margin-top: 35%;
+  margin-left: 10%;
+  padding-top: 0%;
+}
+
+#calenderTo {
+  position: relative;
+  margin-top: 10%;
+  margin-left: 11%;
+  padding-top: 20%;
+
+}
+
+#locationEntry {
+  position: relative;
+  display: block;
+  margin-left: 40%;
+  margin-top: -17%;
+}
+
+#timeEntry {
+  position: relative;
+  display: block;
+  margin-top: -20%;
+  margin-left: 40%;
+}
+
+#dateEntryFrom {
+  position: relative;
+  display: block;
+  margin-left: 40%;
+  margin-top: -18%;
+}
+
+#dateEntryTo {
+  position: relative;
+  display:block;
+  margin-top: -16%;
+  margin-left: 40%;
+}

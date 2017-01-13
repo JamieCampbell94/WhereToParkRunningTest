@@ -64,17 +64,4 @@ $(document).ready(function(){
     }
 
 
-        // window.onload = function(){
-        //
-        //
-        //     document.getElementById("button2").onclick = function fun2() {
-        //       var layer = new google.maps.FusionTablesLayer({
-        //         query: {
-        //           select: 'Location',
-        //           from:'1DXKRFcmkpMG5P8o6Y1ruZm0zQOISv7l4B_h-u6z7'
-        //
-        //         }
-        //       })
-        //       layer.setMap(map);
-      // }
-  // }
+        
