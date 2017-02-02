@@ -2,70 +2,16 @@
   <html>
     <head>
       <title>WhereToPark</title>
-      <link rel="stylesheet" type="text/css" href="stylesheet.css">
-      <script src=" http://code.jquery.com/jquery-1.11.3.min.js"></script>
-      <script type="text/javascript" src="http://cdn.jsdelivr.net/jquery/1/jquery.min.js"></script>
-      <script type="text/javascript" src="http://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
-      <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/bootstrap/3/css/bootstrap.css"/>
-
+      <link rel="stylesheet" type="text/css" href="stylesheet2.css">
+      <link href="https://fonts.googleapis.com/css?family=Days+One" rel="stylesheet">
     </head>
 
     <body>
-      <div class="wrapper">
-        <div id="top-banner">
-          <h1 id="title"><a href="index.html">WHEREToPARK</a></h1>
-        </div>
+      <div id="container">
+        <h1 id="title">WHEREToPARK</h1>
+        <input name="destination" id="destination" type="search" placeholder="Enter Destination..." autocomplete="off">
+        <a href="home.html"><button id="searchBtn" type="button">Search</button></a>
       </div>
-
-      <div id="leftBar">
-        <div id="searchDetails">
-
-          <form>
-            <img id="marker" src="images/marker.png">
-              <input id="locationEntry" type="text" placeholder="Wembley,UK">
-            <img id="clock" src="images/clock.png">
-              <input id="timeEntry" type="time" placeholder="">
-            <img id="calenderFrom" src="images/calenderFrom.png">
-              <input id="dateEntryFrom" type="date" placeholder="">
-            <img id="calenderTo" src="images/calenderTo.png">
-              <input id="dateEntryTo" type="date" placeholder="">
-          </form>
-        </div>
-
-        <div id="generalSearchFilter">
-        </div>
-
-        <div id="routeSearchFilter">
-        </div>
-      </div>
-
-      <div id="map"></div>
-      <div id="button"></div>
-      <div id="button2"></div>
-
-      <div id="sidebar">
-        <ul>
-          <li><a href="about.html">About</a></li>
-          <li><a href="parkingRoute.html">Enter a Parking Route</a></li>
-          <li><a href="rentYouSpace.html">Rent Your Space</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="contactus.html">Contact Us</a></li>
-        </ul>
-        <div id="sidebar-btn">
-          <img id="burger-btn" src="images/whiteMenu.png">
-        </div>
-      </div>
-
-
-
-
-
-
-          <!-- //loads the javascript API into the browser
-          //once loaded it will perform the callback which is the function above -->
-          <script async defer
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDISnI1QTQINxRHdoGv8epY3sLANV4hLZg&v=3&callback=initMap">
-          </script>
-<script src="script.js"></script>
+      <script src="script2.js"></script>
     </body>
   </html>

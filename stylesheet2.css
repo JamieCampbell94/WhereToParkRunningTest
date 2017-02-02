@@ -1,0 +1,49 @@
+html,
+body {
+  font-family: Arial, sans-serif;
+  height: 100%;
+  margin: 0;
+  padding:0;
+  background-color: purple;
+}
+
+#title{
+font-family: "Days One";
+display: inline;
+position: absolute;
+color: white;
+margin-left: 35%;
+margin-top: 10%;
+font-weight: lighter;
+font-size: 400%;
+}
+
+#destination {
+  height: 10%;
+  width: 30%;
+  background: transparent;
+  font-size: 50px;
+  font-weight: 400px;
+  color: white;
+  border: 0;
+  outline: none;
+  margin-top: 20%;
+  margin-left: 36%;
+  text-align: center;
+}
+
+#searchBtn {
+  height:40px;
+  width: 80px;
+  background-color: white;
+  border: 1px;
+  border-radius: 10%;
+  position: absolute;
+  margin-left: -18%;
+  margin-top: 24%;
+  font-family: "Days One";
+  font-weight:100;
+  font-size: 15px;
+  color: purple;
+
+}
