@@ -158,11 +158,20 @@ width: 160%;
 
 }
 
-#locationEntry {
+
+/*should be location entry*/
+#zoom-to-area-text {
   position: relative;
   display: block;
   margin-left: 50%;
   margin-top: -17%;
+}
+
+#zoom-to-area {
+  position: relative;
+  display: block;
+  margin-left: 150%;
+  margin-top: -15%;
 }
 
 #timeEntry {

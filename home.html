@@ -22,7 +22,8 @@
 
           <form>
             <img id="marker" src="images/marker.png">
-              <input id="locationEntry" type="text" placeholder="Wembley,UK">
+              <input id="zoom-to-area-text" type="text" placeholder="Wembley,UK" class="search" onkeydown="search()">
+              <input id="zoom-to-area" type="button" value=" > ">
             <img id="clock" src="images/clock.png">
               <input id="timeEntry" type="time" placeholder="">
             <img id="calenderFrom" src="images/calenderFrom.png">
@@ -30,6 +31,10 @@
             <img id="calenderTo" src="images/calenderTo.png">
               <input id="dateEntryTo" type="date" placeholder="">
           </form>
+          <!-- <div>
+          <input id="zoom-to-area-text" type="text" placeholder="Enter your favorite area!">
+          <input id="zoom-to-area" type="button" value="Zoom">
+        </div> -->
         </div>
 
         <div id="generalSearchFilter">
