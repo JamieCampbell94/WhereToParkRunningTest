@@ -5,7 +5,7 @@ window.onload = function(){
 }
 
 
-document.getElementById('zoom-to-area').addEventListener('click', function() {
+document.getElementById("zoom-to-area").addEventListener('click', function() {
        zoomToArea();
      });
 
