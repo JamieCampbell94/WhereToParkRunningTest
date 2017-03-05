@@ -4,14 +4,18 @@
       <title>WhereToPark</title>
       <link rel="stylesheet" type="text/css" href="stylesheets/indexStylesheet.css">
       <link href="https://fonts.googleapis.com/css?family=Days+One" rel="stylesheet">
+
     </head>
 
     <body>
+
       <div id="container">
         <h1 id="title">WHEREToPARK</h1>
-        <input name="destination" id="destination" type="search" placeholder="Enter Destination..." autofocus autocomplete="off">
-        <a href="pages/mainPage.html"><button id="searchBtn" type="button">Search</button></a>
+        <form action="site2.php" method="post">
+          <input name="destination" id="destination" type="search" placeholder="Enter Destination...">
+          <input type="submit">
+        </form>
       </div>
-      <script src="scripts/indexScript.js"></script>
+
     </body>
   </html>

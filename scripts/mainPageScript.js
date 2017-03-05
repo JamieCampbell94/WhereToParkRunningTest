@@ -32,7 +32,7 @@ $(document).ready(function(){
     // Puts the new map in the map div
     map = new google.maps.Map(document.getElementById('map'),{
       center: {lat: 51.556241,lng:-0.279530},
-      zoom: 14 //up to level 21
+      zoom: 11 //up to level 21
     });
 
     var wembley = {lat: 51.556241,lng:-0.279530};
@@ -41,7 +41,7 @@ $(document).ready(function(){
       map: map,
       title: 'Wembley Stadium'
     })
-
+    zoomToArea();
   }
   // window.onload = function(){
   //
@@ -118,7 +118,7 @@ $(document).ready(function(){
             }, function(results, status) {
               if (status == google.maps.GeocoderStatus.OK) {
                 map.setCenter(results[0].geometry.location);
-                map.setZoom(15);
+                map.setZoom(14);
               } else {
                 window.alert('We could not find that location - try entering a more' +
                     ' specific place.');
@@ -164,4 +164,19 @@ $(document).ready(function(){
       //         }
       //       });
       //   }
+      // }
+
+
+      // function testJS()
+      // {
+      //
+      // var b = document.getElementById('name').value
+      //
+      // document.getElementById('here').innerHTML = b;
+      //
+      // }
+
+      // function getDestination() {
+      //   var dest = document.getElementById('destination').value
+      //   document.getElementById('zoom-to-area-text').innerHTML = dest;
       // }
