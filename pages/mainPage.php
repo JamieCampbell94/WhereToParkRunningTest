@@ -2,7 +2,7 @@
   <html>
     <head>
       <title>WhereToPark</title>
-      <link rel="stylesheet" type="text/css" href="stylesheets/mainPageStylesheet.css">
+      <link rel="stylesheet" type="text/css" href="../stylesheets/mainPageStylesheet.css">
       <script src=" http://code.jquery.com/jquery-1.11.3.min.js"></script>
       <script type="text/javascript" src="http://cdn.jsdelivr.net/jquery/1/jquery.min.js"></script>
       <script type="text/javascript" src="http://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
@@ -21,14 +21,14 @@
         <div id="searchDetails">
 
           <form>
-            <img id="marker" src="images/marker.png">
+            <img id="marker" src="../images/marker.png">
               <input id="zoom-to-area-text" type="text" placeholder="Wembley,UK" class="search" onkeydown="search()">
               <input id="zoom-to-area" type="button" value=" > ">
-            <img id="clock" src="images/clock.png">
+            <img id="clock" src="../images/clock.png">
               <input id="timeEntry" type="time" placeholder="">
-            <img id="calenderFrom" src="images/calenderFrom.png">
+            <img id="calenderFrom" src="../images/calenderFrom.png">
               <input id="dateEntryFrom" type="date" placeholder="">
-            <img id="calenderTo" src="images/calenderTo.png">
+            <img id="calenderTo" src="../images/calenderTo.png">
               <input id="dateEntryTo" type="date" placeholder="">
           </form>
 
@@ -38,8 +38,7 @@
         </div>
 
         <div id="routeSearchFilter">
-          <p id="demo">Click me.</p>
-        </div>
+              </div>
       </div>
 
       <div id="map"></div>
@@ -74,12 +73,12 @@
      document.getElementById ("zoom-to-area-text").value = dest;
  </script>
 
-  <script src="scripts/mainPageScript.js"></script>
+  <script src="../scripts/mainPageScript.js"></script>
 
 
   <!-- //loads the javascript API into the browser //once loaded it will perform the callback which is the function above -->
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDISnI1QTQINxRHdoGv8epY3sLANV4hLZg&v=3&callback=initMap"></script>
-  <script src="scripts/indexScript.js"></script>
+  <script src="../scripts/indexScript.js"></script>
 
 
           <!-- //loads the javascript API into the browser
