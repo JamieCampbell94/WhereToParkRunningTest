@@ -47,7 +47,7 @@
 
       <div id="sidebar">
         <ul>
-          <li><a href="about.html">About</a></li>
+          <li><a href="aboutUs.html">About</a></li>
           <li><a href="parkingRoute.html">Enter a Parking Route</a></li>
           <li><a href="rentYouSpace.html">Rent Your Space</a></li>
           <li><a href="blog.html">Blog</a></li>
@@ -67,7 +67,10 @@
 </form>
 
 
-
+//This is a poor way of doing import
+//http://stackoverflow.com/questions/11798995/ways-to-pass-php-post-data-to-javascript
+//This works by taking the user input from index and then replacing the content in zoom-to-area-text
+//so when the page loads and runs the zoom it runs based on the user input from the first page
 <script type="text/javascript">
      var dest = "<?php echo $_POST["destination"]; ?>";
      document.getElementById ("zoom-to-area-text").value = dest;
