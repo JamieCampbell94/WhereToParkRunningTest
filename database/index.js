@@ -9,12 +9,12 @@ document.getElementById("dsp-btn").addEventListener('click', function(){
 });
 //This gets the chat log from get.php as soon as the page is loaded without having to wait for the 1000
 // interval in the button function. If taken out it still works correctly just not instant showing of chat
-  AjaxGet("get.php",chatLogDiv);
+  AjaxGet("../database/get.php",chatLogDiv);
 
 
 //Runs the same function as previous but this is set to a 1000 loop to keep getting it and updating tha chat
   function getChatLog (){
-    AjaxGet("get.php",chatLogDiv);
+    AjaxGet("../database/get.php",chatLogDiv);
   }
 
 //Response is the variable containing the information from the url the AjaxGet was sent to get.

@@ -12,16 +12,16 @@ $username = 'root';
 $password = 'root';
 
 try {
-  $pdo = new PDO('mysql:host=localhost;dbname=Chat', $username, $password);
+  $pdo = new PDO('mysql:host=localhost;dbname=ParkingTest', $username, $password);
   $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 
-      $stmt = $pdo->prepare('SELECT time, message FROM chatLogTwo');
+      $stmt = $pdo->prepare('SELECT timeStamper, parkingData FROM parkingData');
       $stmt->execute();
 
 
       while($row = $stmt->fetchObject()) {
-        print date('H:i:s', strtotime($row->time)). ' - '. $row->message .'<br />' ;
+        print date('H:i:s', strtotime($row->timeStamper)). ' - '. $row->parkingData .'<br />' ;
       }
 
 

@@ -48,7 +48,7 @@
       <div id="sidebar">
         <ul>
           <li><a href="aboutUs.html">About</a></li>
-          <li><a href="parkingRoute.html">Enter a Parking Route</a></li>
+          <li><a href="routeSubmission.html">Enter a Parking Route</a></li>
           <li><a href="rentYouSpace.html">Rent Your Space</a></li>
           <li><a href="blog.html">Blog</a></li>
           <li><a href="contactus.html">Contact Us</a></li>

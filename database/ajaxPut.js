@@ -25,7 +25,7 @@
           randomText: textInput.value
         };
 
-        events.runAJAX('put.php', 'POST', data, function(xhr) {
+        events.runAJAX("../database/put.php", 'POST', data, function(xhr) {
           // Call the helper to POST to put.php and run this CB in response
           // Pass the xhr into it to ensure scope is set
           if(xhr.status === 200) {
