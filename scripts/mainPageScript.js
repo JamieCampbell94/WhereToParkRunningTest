@@ -91,7 +91,36 @@ $(document).ready(function(){
               })
               layer.setMap(map);
             }
+
+            // document.getElementById("button").onclick = function fun3() {
+            //       var layer = new google.maps.FusionTablesLayer({
+            //         query: {
+            //           select: 'Location',
+            //           from:'1ww1JrVrHJIp5JpITnebzzhwgYKxYqdl0Oqjorq_q',
+            //           where: "'Place' = 'Portsmouth'"
+            //
+            //         }
+            //       })
+            //       layer.setMap(map);
+            //     }
+
+            // document.getElementById("button").onclick = function fun3() {
+                  var location = document.getElementById('zoom-to-area-text').value;
+                  console.log(location);
+                  var layer = new google.maps.FusionTablesLayer({
+                    query: {
+                      select: 'Location',
+                      from:'1ww1JrVrHJIp5JpITnebzzhwgYKxYqdl0Oqjorq_q',
+                      where: "'Place' = location"
+
+                    }
+                  })
+                  layer.setMap(map);
+                // }
       };
+
+
+
 
       function search() {
         if(event.keyCode == 13) {
