@@ -2,7 +2,7 @@
   <html>
     <head>
       <title>Submit a Route</title>
-      <link rel="stylesheet" type="text/css" href="../stylesheets/mainPageStylesheet.css">
+      <link rel="stylesheet" type="text/css" href="../stylesheets/submitARoute.css">
       <script src=" http://code.jquery.com/jquery-1.11.3.min.js"></script>
       <script type="text/javascript" src="http://cdn.jsdelivr.net/jquery/1/jquery.min.js"></script>
       <script type="text/javascript" src="http://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
@@ -35,8 +35,15 @@
 
         <div id="formContainer">
           <form>
-            Full Name:<br>
-            <input type="text" name="First"
+            Full Name:
+            <input type="text" id="FullName" name="fullName"><br>
+            Destination:
+            <input type="text" id="Destination" name="destination"><br>
+            Car Park:
+            <input type="text" id="Carpark" name="carPark"><br>
+            Added info:
+            <input type="text" id="AddedInfo" name="addedInfo"><br><br>
+            <input type="submit" value="Submit">
         </div>
 
           <script src="../scripts/aboutUs.js"></script>

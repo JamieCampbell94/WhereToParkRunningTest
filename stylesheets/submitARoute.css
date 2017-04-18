@@ -84,3 +84,26 @@ width: 160%;
   display: block;
   font-family: "Helvetica Neue";
 }
+
+#Title {
+  margin-left: 42%;
+}
+#formContainer {
+  margin-left: 42%;
+}
+
+#FullName {
+  margin-left: 1%;
+}
+
+#Destination {
+  margin-left: 0.5%;
+}
+
+#Carpark {
+  margin-left: 1.55%;
+}
+
+#AddedInfo {
+  margin-left: 0.65%;
+}

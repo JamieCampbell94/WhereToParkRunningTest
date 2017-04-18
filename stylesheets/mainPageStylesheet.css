@@ -194,3 +194,15 @@ width: 160%;
   margin-top: -16%;
   margin-left: 50%;
 }
+
+#formContainer {
+  margin-left: 10%;
+}
+
+#FullName {
+  margin-left: 100%;
+}
+
+button, input, optgroup, select, textarea {
+  margin-left: 1%;
+}
